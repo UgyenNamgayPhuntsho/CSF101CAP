@@ -10,6 +10,9 @@
 
 
 #Defining a function
+#Refered to Lotfinejad, M. (2023, March 6). Tutorial: How to easily read files in Python (Text, CSV, JSON). Dataquest.
+#https://www.dataquest.io/blog/read-file-python/#:~:text=Python%20provides%20a%20built%2Din,we%20can%20manipulate%20its%20content
+
 def read_input(input_file):
     result = []
     with open(input_file, "r") as f:  # Using the open and with to read the assigned text.
@@ -18,6 +21,8 @@ def read_input(input_file):
             result.append((x, y)) #adding x and y in the list.
     return result  # Return result after the loop
 
+#Refered Python Tutorial. (n.d.). 
+#https://www.w3schools.com/python/
 def calculate_score(result):#defining calculate_score() and setting result as the parameter
     total_score = 0 #initial score point
     for x, y in result: #iteration 
